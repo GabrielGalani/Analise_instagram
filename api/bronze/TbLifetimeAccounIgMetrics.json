@@ -1,0 +1,337 @@
+[
+    {
+        "name": "audience_gender_age",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {
+                    "F.13-17": 3,
+                    "F.18-24": 143,
+                    "F.25-34": 309,
+                    "F.35-44": 110,
+                    "F.45-54": 36,
+                    "F.55-64": 23,
+                    "F.65+": 4,
+                    "M.13-17": 3,
+                    "M.18-24": 14,
+                    "M.25-34": 56,
+                    "M.35-44": 27,
+                    "M.45-54": 18,
+                    "M.55-64": 9,
+                    "M.65+": 1,
+                    "U.13-17": 2,
+                    "U.18-24": 179,
+                    "U.25-34": 1328,
+                    "U.35-44": 199,
+                    "U.45-54": 10,
+                    "U.55-64": 4
+                }
+            }
+        ],
+        "title": "G\u00eanero e faixa et\u00e1ria",
+        "description": "A distribui\u00e7\u00e3o por g\u00eanero e faixa et\u00e1ria dos seguidores deste perfil",
+        "id": "17841425444516188/insights/audience_gender_age/lifetime",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "audience_locale",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {
+                    "el_GR": 1,
+                    "ru_RU": 5,
+                    "it_IT": 5,
+                    "pl_PL": 1,
+                    "ro_RO": 3,
+                    "be_BY": 1,
+                    "tr_TR": 1017,
+                    "id_ID": 2,
+                    "en_AS": 1,
+                    "tl_PH": 2,
+                    "pt_BR": 1045,
+                    "he_IL": 4,
+                    "fr_FR": 5,
+                    "cs_CZ": 4,
+                    "hu_HU": 1,
+                    "es_SV": 2,
+                    "ky_KG": 1,
+                    "de_CH": 6,
+                    "lo_LA": 1,
+                    "es_MX": 2,
+                    "sk_SK": 2,
+                    "es_ES": 2,
+                    "es_CL": 2,
+                    "nl_NL": 1,
+                    "en_NZ": 3,
+                    "sv_SE": 2,
+                    "fa_IR": 1,
+                    "mk_MK": 1,
+                    "en_IE": 10,
+                    "fi_FI": 1,
+                    "es_HN": 1,
+                    "en_GB": 4,
+                    "en_US": 296,
+                    "lv_LV": 2,
+                    "en_IN": 2,
+                    "zh_CN": 1,
+                    "kk_KZ": 1,
+                    "ar_AE": 1,
+                    "pt_PT": 10
+                }
+            }
+        ],
+        "title": "Localiza\u00e7\u00e3o",
+        "description": "Localidades por c\u00f3digos de pa\u00eds dos seguidores deste perfil",
+        "id": "17841425444516188/insights/audience_locale/lifetime",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "audience_country",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {
+                    "DE": 1,
+                    "BD": 1,
+                    "RU": 10,
+                    "PT": 9,
+                    "RW": 1,
+                    "FR": 2,
+                    "NZ": 2,
+                    "BR": 645,
+                    "SG": 1,
+                    "BY": 5,
+                    "GB": 5,
+                    "US": 665,
+                    "MM": 6,
+                    "AE": 9,
+                    "CH": 2,
+                    "IN": 2,
+                    "ZA": 15,
+                    "IR": 21,
+                    "MX": 2,
+                    "MY": 1,
+                    "AO": 1,
+                    "ES": 7,
+                    "TH": 1,
+                    "AU": 7,
+                    "CZ": 21,
+                    "NG": 5,
+                    "NL": 3,
+                    "TR": 1028
+                }
+            }
+        ],
+        "title": "Pa\u00eds do p\u00fablico",
+        "description": "Pa\u00edses dos seguidores deste perfil",
+        "id": "17841425444516188/insights/audience_country/lifetime",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "audience_city",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {
+                    "S\u00e3o Paulo, S\u00e3o Paulo (state)": 180,
+                    "Rio de Janeiro, Rio de Janeiro (state)": 24,
+                    "Yuma, Arizona": 20,
+                    "Edinburg, Texas": 10,
+                    "Uluk\u0131sla, Ni\u011fde Province": 16,
+                    "Abington, Pennsylvania": 24,
+                    "Sioux Falls, South Dakota": 8,
+                    "Golpazar\u0131, Bilecik Province": 9,
+                    "Alpu, Eski\u015fehir Province": 12,
+                    "Macei\u00f3, Alagoas": 61,
+                    "Eskisehir, Eski\u015fehir Province": 613,
+                    "Prague, Prague": 12,
+                    "San Jose, California": 9,
+                    "Redford, Michigan": 11,
+                    "\u00c7iftlik, Ni\u011fde Province": 11,
+                    "Tr\u00eas Rios, Rio de Janeiro (state)": 9,
+                    "Gilbert, Arizona": 8,
+                    "G\u00fczelyurt, Aksaray Province": 8,
+                    "Cianorte, Paran\u00e1": 22,
+                    "Recife, Pernambuco": 9,
+                    "Des Moines, Iowa": 8,
+                    "Manchester, New Hampshire": 11,
+                    "Beylikova, Eski\u015fehir Province": 18,
+                    "Seyitgazi, Eski\u015fehir Province": 17,
+                    "Grand Rapids, Michigan": 8,
+                    "Guarulhos, S\u00e3o Paulo (state)": 9,
+                    "Las Vegas, Nevada": 10,
+                    "Ad\u0131yaman, Ni\u011fde Province": 8,
+                    "El Monte, California": 8,
+                    "Topeka, Kansas": 19,
+                    "Konya, Konya Province": 17,
+                    "Araruna, Paran\u00e1": 36,
+                    "Sivrihisar, Eski\u015fehir Province": 8,
+                    "Junction City, Kansas": 18,
+                    "Eskipazar, Karab\u00fck Province": 9,
+                    "Cape Town, Western Cape": 14,
+                    "Sincank\u00f6y, Ankara Province": 42,
+                    "Qom, Markazi Province": 9,
+                    "New York, New York": 45,
+                    "Beach Park, Illinois": 8,
+                    "Fort Wayne, Indiana": 9,
+                    "Belo Horizonte, Minas Gerais": 9,
+                    "Mahmudiye, Eski\u015fehir Province": 20,
+                    "Bel\u00e9m, Par\u00e1": 14,
+                    "\u00c7ifteler, Eski\u015fehir Province": 17
+                }
+            }
+        ],
+        "title": "Cidade do p\u00fablico",
+        "description": "Cidades dos seguidores deste perfil",
+        "id": "17841425444516188/insights/audience_city/lifetime",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "online_followers",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {},
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Seguidores online",
+        "description": "N\u00famero total de seguidores deste perfil que estavam online durante o per\u00edodo especificado",
+        "id": "17841425444516188/insights/online_followers/lifetime",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "audience_gender_age",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {
+                    "F.18-24": 13,
+                    "F.25-34": 41,
+                    "F.35-44": 20,
+                    "F.45-54": 13,
+                    "F.55-64": 5,
+                    "F.65+": 6,
+                    "M.13-17": 2,
+                    "M.18-24": 17,
+                    "M.25-34": 49,
+                    "M.35-44": 17,
+                    "M.45-54": 6,
+                    "M.55-64": 1,
+                    "M.65+": 1,
+                    "U.18-24": 5,
+                    "U.25-34": 14,
+                    "U.35-44": 3,
+                    "U.45-54": 1,
+                    "U.55-64": 2
+                }
+            }
+        ],
+        "title": "G\u00eanero e faixa et\u00e1ria",
+        "description": "A distribui\u00e7\u00e3o por g\u00eanero e faixa et\u00e1ria dos seguidores deste perfil",
+        "id": "17841417530400616/insights/audience_gender_age/lifetime",
+        "username": "gabgalani"
+    },
+    {
+        "name": "audience_locale",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {
+                    "es_LA": 1,
+                    "en_GB": 1,
+                    "pt_BR": 204,
+                    "en_US": 10
+                }
+            }
+        ],
+        "title": "Localiza\u00e7\u00e3o",
+        "description": "Localidades por c\u00f3digos de pa\u00eds dos seguidores deste perfil",
+        "id": "17841417530400616/insights/audience_locale/lifetime",
+        "username": "gabgalani"
+    },
+    {
+        "name": "audience_country",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {
+                    "BR": 209,
+                    "HK": 1,
+                    "MY": 1,
+                    "EC": 1,
+                    "US": 4
+                }
+            }
+        ],
+        "title": "Pa\u00eds do p\u00fablico",
+        "description": "Pa\u00edses dos seguidores deste perfil",
+        "id": "17841417530400616/insights/audience_country/lifetime",
+        "username": "gabgalani"
+    },
+    {
+        "name": "audience_city",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {
+                    "Planaltina, Goi\u00e1s": 1,
+                    "Ribeir\u00e3o Pr\u00eato, S\u00e3o Paulo (state)": 1,
+                    "S\u00e3o Paulo, S\u00e3o Paulo (state)": 107,
+                    "Barbosa, S\u00e3o Paulo (state)": 1,
+                    "Pedro do Rio, Rio de Janeiro (state)": 1,
+                    "S\u00e3o Lu\u00eds, Maranh\u00e3o": 2,
+                    "Nova Friburgo, Rio de Janeiro (state)": 2,
+                    "Rio de Janeiro, Rio de Janeiro (state)": 7,
+                    "Hong Kong, Hong Kong": 1,
+                    "Osasco, S\u00e3o Paulo (state)": 1,
+                    "Rio Branco, Acre (state)": 1,
+                    "Itaipava, Rio de Janeiro (state)": 1,
+                    "Londrina, Paran\u00e1": 6,
+                    "Bras\u00edlia, Federal District": 1,
+                    "Guarulhos, S\u00e3o Paulo (state)": 6,
+                    "Sobradinho, Federal District": 1,
+                    "Kuala Lumpur, Kuala Lumpur": 1,
+                    "Sorocaba, S\u00e3o Paulo (state)": 1,
+                    "Natal, Rio Grande do Norte": 1,
+                    "S\u00e3o Bernardo do Campo, S\u00e3o Paulo (state)": 1,
+                    "P\u00f4rto Uni\u00e3o, Santa Catarina": 1,
+                    "Salvador, Bahia": 1,
+                    "Hunters Creek, Florida": 1,
+                    "Petr\u00f3polis, Rio de Janeiro (state)": 56,
+                    "Port\u00e3o, Rio Grande do Sul": 1,
+                    "Alvorada, Rio Grande do Sul": 1,
+                    "Itabuna, Bahia": 1,
+                    "New York, New York": 1,
+                    "Couto de Magalh\u00e3es de Minas, Minas Gerais": 1,
+                    "Canoas, Rio Grande do Sul": 1,
+                    "Passaic, New Jersey": 2,
+                    "S\u00e3o Caitano, Pernambuco": 1,
+                    "Suzano, S\u00e3o Paulo (state)": 1,
+                    "Tulc\u00e1n, Carchi Province": 1,
+                    "Itaperuna, Rio de Janeiro (state)": 1,
+                    "Campinas, S\u00e3o Paulo (state)": 1
+                }
+            }
+        ],
+        "title": "Cidade do p\u00fablico",
+        "description": "Cidades dos seguidores deste perfil",
+        "id": "17841417530400616/insights/audience_city/lifetime",
+        "username": "gabgalani"
+    },
+    {
+        "name": "online_followers",
+        "period": "lifetime",
+        "values": [
+            {
+                "value": {},
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Seguidores online",
+        "description": "N\u00famero total de seguidores deste perfil que estavam online durante o per\u00edodo especificado",
+        "id": "17841417530400616/insights/online_followers/lifetime",
+        "username": "gabgalani"
+    }
+]

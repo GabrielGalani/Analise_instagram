@@ -1,0 +1,156 @@
+	id	name	period	title	description	value	extract_date	period_extraction	year	day	id_tb_midias
+0	18005273918369940	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	145	2024-05-20	05	2024	20	1800527391836994020240520reachlifetime
+1	18005273918369940	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	1	2024-05-20	05	2024	20	1800527391836994020240520savedlifetime
+2	17846370906157882	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	98	2024-05-20	05	2024	20	1784637090615788220240520reachlifetime
+3	17846370906157882	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	0	2024-05-20	05	2024	20	1784637090615788220240520savedlifetime
+4	18002752616172667	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	123	2024-05-20	05	2024	20	1800275261617266720240520reachlifetime
+5	18002752616172667	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	0	2024-05-20	05	2024	20	1800275261617266720240520savedlifetime
+6	17971594208670851	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	138	2024-05-20	05	2024	20	1797159420867085120240520reachlifetime
+7	17971594208670851	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	0	2024-05-20	05	2024	20	1797159420867085120240520savedlifetime
+8	18062694892504235	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	138	2024-05-20	05	2024	20	1806269489250423520240520reachlifetime
+9	18062694892504235	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	0	2024-05-20	05	2024	20	1806269489250423520240520savedlifetime
+10	17870243565059503	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	131	2024-05-20	05	2024	20	1787024356505950320240520reachlifetime
+11	17870243565059503	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	0	2024-05-20	05	2024	20	1787024356505950320240520savedlifetime
+12	17897388878957061	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	308	2024-05-20	05	2024	20	1789738887895706120240520reachlifetime
+13	17897388878957061	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	4	2024-05-20	05	2024	20	1789738887895706120240520savedlifetime
+14	18214911715272967	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1821491171527296720240520taps_forwardlifetime
+15	18214911715272967	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1821491171527296720240520taps_backlifetime
+16	18214911715272967	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1821491171527296720240520exitslifetime
+17	18214911715272967	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1821491171527296720240520replieslifetime
+18	18214911715272967	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	7	2024-05-20	05	2024	20	1821491171527296720240520engagementlifetime
+19	18214911715272967	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1821491171527296720240520video_viewslifetime
+20	18214911715272967	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	56	2024-05-20	05	2024	20	1821491171527296720240520impressionslifetime
+21	18214911715272967	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	54	2024-05-20	05	2024	20	1821491171527296720240520reachlifetime
+22	18214911715272967	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	0	2024-05-20	05	2024	20	1821491171527296720240520savedlifetime
+23	17905338809918494	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	147	2024-05-20	05	2024	20	1790533880991849420240520reachlifetime
+24	17905338809918494	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	0	2024-05-20	05	2024	20	1790533880991849420240520savedlifetime
+25	17912491130893668	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1791249113089366820240520taps_forwardlifetime
+26	17912491130893668	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1791249113089366820240520taps_backlifetime
+27	17912491130893668	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1791249113089366820240520exitslifetime
+28	17912491130893668	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1791249113089366820240520replieslifetime
+29	17912491130893668	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	7	2024-05-20	05	2024	20	1791249113089366820240520engagementlifetime
+30	17912491130893668	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1791249113089366820240520video_viewslifetime
+31	17912491130893668	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	71	2024-05-20	05	2024	20	1791249113089366820240520impressionslifetime
+32	17912491130893668	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	68	2024-05-20	05	2024	20	1791249113089366820240520reachlifetime
+33	17912491130893668	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	1	2024-05-20	05	2024	20	1791249113089366820240520savedlifetime
+34	18020750125974446	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1802075012597444620240520taps_forwardlifetime
+35	18020750125974446	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1802075012597444620240520taps_backlifetime
+36	18020750125974446	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1802075012597444620240520exitslifetime
+37	18020750125974446	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1802075012597444620240520replieslifetime
+38	18020750125974446	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	8	2024-05-20	05	2024	20	1802075012597444620240520engagementlifetime
+39	18020750125974446	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1802075012597444620240520video_viewslifetime
+40	18020750125974446	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	77	2024-05-20	05	2024	20	1802075012597444620240520impressionslifetime
+41	18020750125974446	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	74	2024-05-20	05	2024	20	1802075012597444620240520reachlifetime
+42	18020750125974446	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	1	2024-05-20	05	2024	20	1802075012597444620240520savedlifetime
+43	17869447275058315	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1786944727505831520240520taps_forwardlifetime
+44	17869447275058315	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1786944727505831520240520taps_backlifetime
+45	17869447275058315	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1786944727505831520240520exitslifetime
+46	17869447275058315	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1786944727505831520240520replieslifetime
+47	17869447275058315	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	7	2024-05-20	05	2024	20	1786944727505831520240520engagementlifetime
+48	17869447275058315	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1786944727505831520240520video_viewslifetime
+49	17869447275058315	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	81	2024-05-20	05	2024	20	1786944727505831520240520impressionslifetime
+50	17869447275058315	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	79	2024-05-20	05	2024	20	1786944727505831520240520reachlifetime
+51	17869447275058315	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	1	2024-05-20	05	2024	20	1786944727505831520240520savedlifetime
+52	18030343753699664	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	108	2024-05-20	05	2024	20	1803034375369966420240520reachlifetime
+53	18030343753699664	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	1	2024-05-20	05	2024	20	1803034375369966420240520savedlifetime
+54	18012618164496765	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1801261816449676520240520taps_forwardlifetime
+55	18012618164496765	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1801261816449676520240520taps_backlifetime
+56	18012618164496765	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1801261816449676520240520exitslifetime
+57	18012618164496765	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1801261816449676520240520replieslifetime
+58	18012618164496765	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	9	2024-05-20	05	2024	20	1801261816449676520240520engagementlifetime
+59	18012618164496765	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1801261816449676520240520video_viewslifetime
+60	18012618164496765	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	69	2024-05-20	05	2024	20	1801261816449676520240520impressionslifetime
+61	18012618164496765	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	66	2024-05-20	05	2024	20	1801261816449676520240520reachlifetime
+62	18012618164496765	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	2	2024-05-20	05	2024	20	1801261816449676520240520savedlifetime
+63	18020150257990451	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1802015025799045120240520taps_forwardlifetime
+64	18020150257990451	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1802015025799045120240520taps_backlifetime
+65	18020150257990451	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1802015025799045120240520exitslifetime
+66	18020150257990451	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1802015025799045120240520replieslifetime
+67	18020150257990451	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	6	2024-05-20	05	2024	20	1802015025799045120240520engagementlifetime
+68	18020150257990451	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1802015025799045120240520video_viewslifetime
+69	18020150257990451	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	59	2024-05-20	05	2024	20	1802015025799045120240520impressionslifetime
+70	18020150257990451	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	50	2024-05-20	05	2024	20	1802015025799045120240520reachlifetime
+71	18020150257990451	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	1	2024-05-20	05	2024	20	1802015025799045120240520savedlifetime
+72	18024592819898084	impressions	lifetime	Impressões	Número total de vezes que o objeto de mídia foi visto	97	2024-05-20	05	2024	20	1802459281989808420240520impressionslifetime
+73	18024592819898084	reach	lifetime	Alcance	Número total de contas únicas que viram o objeto de mídia	80	2024-05-20	05	2024	20	1802459281989808420240520reachlifetime
+74	18024592819898084	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1802459281989808420240520taps_forwardlifetime
+75	18024592819898084	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1802459281989808420240520taps_backlifetime
+76	18024592819898084	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1802459281989808420240520exitslifetime
+77	18024592819898084	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1802459281989808420240520replieslifetime
+78	18024592819898084	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	20	2024-05-20	05	2024	20	1802459281989808420240520engagementlifetime
+79	18024592819898084	saved	lifetime	Salvos	Número total de contas únicas que salvaram o objeto de mídia	2	2024-05-20	05	2024	20	1802459281989808420240520savedlifetime
+80	18024592819898084	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1802459281989808420240520video_viewslifetime
+81	17997324461240753	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1799732446124075320240520taps_forwardlifetime
+82	17997324461240753	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1799732446124075320240520taps_backlifetime
+83	17997324461240753	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1799732446124075320240520exitslifetime
+84	17997324461240753	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1799732446124075320240520replieslifetime
+85	17997324461240753	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	8	2024-05-20	05	2024	20	1799732446124075320240520engagementlifetime
+86	17997324461240753	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1799732446124075320240520video_viewslifetime
+87	17997324461240753	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	83	2024-05-20	05	2024	20	1799732446124075320240520impressionslifetime
+88	17997324461240753	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	77	2024-05-20	05	2024	20	1799732446124075320240520reachlifetime
+89	17997324461240753	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	1	2024-05-20	05	2024	20	1799732446124075320240520savedlifetime
+90	17982183917471535	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1798218391747153520240520taps_forwardlifetime
+91	17982183917471535	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1798218391747153520240520taps_backlifetime
+92	17982183917471535	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1798218391747153520240520exitslifetime
+93	17982183917471535	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1798218391747153520240520replieslifetime
+94	17982183917471535	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	8	2024-05-20	05	2024	20	1798218391747153520240520engagementlifetime
+95	17982183917471535	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1798218391747153520240520video_viewslifetime
+96	17982183917471535	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	57	2024-05-20	05	2024	20	1798218391747153520240520impressionslifetime
+97	17982183917471535	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	51	2024-05-20	05	2024	20	1798218391747153520240520reachlifetime
+98	17982183917471535	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	1	2024-05-20	05	2024	20	1798218391747153520240520savedlifetime
+99	17873173155025720	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este reel pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu reel pelas mesmas contas. Esta métrica é estimada.	309	2024-05-20	05	2024	20	1787317315502572020240520reachlifetime
+100	17873173155025720	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.	3	2024-05-20	05	2024	20	1787317315502572020240520savedlifetime
+101	17892179540901363	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1789217954090136320240520taps_forwardlifetime
+102	17892179540901363	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1789217954090136320240520taps_backlifetime
+103	17892179540901363	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1789217954090136320240520exitslifetime
+104	17892179540901363	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1789217954090136320240520replieslifetime
+105	17892179540901363	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	4	2024-05-20	05	2024	20	1789217954090136320240520engagementlifetime
+106	17892179540901363	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1789217954090136320240520video_viewslifetime
+107	17892179540901363	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	96	2024-05-20	05	2024	20	1789217954090136320240520impressionslifetime
+108	17892179540901363	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	92	2024-05-20	05	2024	20	1789217954090136320240520reachlifetime
+109	17892179540901363	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	0	2024-05-20	05	2024	20	1789217954090136320240520savedlifetime
+110	17953225589736051	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1795322558973605120240520taps_forwardlifetime
+111	17953225589736051	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1795322558973605120240520taps_backlifetime
+112	17953225589736051	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1795322558973605120240520exitslifetime
+113	17953225589736051	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1795322558973605120240520replieslifetime
+114	17953225589736051	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	14	2024-05-20	05	2024	20	1795322558973605120240520engagementlifetime
+115	17953225589736051	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1795322558973605120240520video_viewslifetime
+116	17953225589736051	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	102	2024-05-20	05	2024	20	1795322558973605120240520impressionslifetime
+117	17953225589736051	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	92	2024-05-20	05	2024	20	1795322558973605120240520reachlifetime
+118	17953225589736051	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	2	2024-05-20	05	2024	20	1795322558973605120240520savedlifetime
+119	18039366277634967	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1803936627763496720240520taps_forwardlifetime
+120	18039366277634967	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1803936627763496720240520taps_backlifetime
+121	18039366277634967	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1803936627763496720240520exitslifetime
+122	18039366277634967	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1803936627763496720240520replieslifetime
+123	18039366277634967	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	6	2024-05-20	05	2024	20	1803936627763496720240520engagementlifetime
+124	18039366277634967	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1803936627763496720240520video_viewslifetime
+125	18039366277634967	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	63	2024-05-20	05	2024	20	1803936627763496720240520impressionslifetime
+126	18039366277634967	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	59	2024-05-20	05	2024	20	1803936627763496720240520reachlifetime
+127	18039366277634967	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	0	2024-05-20	05	2024	20	1803936627763496720240520savedlifetime
+128	18034865689681990	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1803486568968199020240520taps_forwardlifetime
+129	18034865689681990	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1803486568968199020240520taps_backlifetime
+130	18034865689681990	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1803486568968199020240520exitslifetime
+131	18034865689681990	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1803486568968199020240520replieslifetime
+132	18034865689681990	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	7	2024-05-20	05	2024	20	1803486568968199020240520engagementlifetime
+133	18034865689681990	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1803486568968199020240520video_viewslifetime
+134	18034865689681990	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	46	2024-05-20	05	2024	20	1803486568968199020240520impressionslifetime
+135	18034865689681990	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	42	2024-05-20	05	2024	20	1803486568968199020240520reachlifetime
+136	18034865689681990	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	0	2024-05-20	05	2024	20	1803486568968199020240520savedlifetime
+137	18091892248364995	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1809189224836499520240520taps_forwardlifetime
+138	18091892248364995	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1809189224836499520240520taps_backlifetime
+139	18091892248364995	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1809189224836499520240520exitslifetime
+140	18091892248364995	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1809189224836499520240520replieslifetime
+141	18091892248364995	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	5	2024-05-20	05	2024	20	1809189224836499520240520engagementlifetime
+142	18091892248364995	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1809189224836499520240520video_viewslifetime
+143	18091892248364995	impressions	lifetime	Impressões	O número de vezes que a sua publicação foi exibida na tela.	45	2024-05-20	05	2024	20	1809189224836499520240520impressionslifetime
+144	18091892248364995	reach	lifetime	Contas alcançadas	O número de contas únicas que viram esta publicação pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações da sua publicação pelas mesmas contas. Essa métrica é estimada.	42	2024-05-20	05	2024	20	1809189224836499520240520reachlifetime
+145	18091892248364995	saved	lifetime	Salvo	O número de vezes que sua publicação foi salva.	0	2024-05-20	05	2024	20	1809189224836499520240520savedlifetime
+146	17950801427740207	impressions	lifetime	Impressões	Número total de vezes que o objeto de mídia foi visto	74	2024-05-20	05	2024	20	1795080142774020720240520impressionslifetime
+147	17950801427740207	reach	lifetime	Alcance	Número total de contas únicas que viram o objeto de mídia	64	2024-05-20	05	2024	20	1795080142774020720240520reachlifetime
+148	17950801427740207	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	0	2024-05-20	05	2024	20	1795080142774020720240520taps_forwardlifetime
+149	17950801427740207	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	0	2024-05-20	05	2024	20	1795080142774020720240520taps_backlifetime
+150	17950801427740207	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	0	2024-05-20	05	2024	20	1795080142774020720240520exitslifetime
+151	17950801427740207	replies	lifetime	Respostas	Número total de respostas ao story	0	2024-05-20	05	2024	20	1795080142774020720240520replieslifetime
+152	17950801427740207	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia	11	2024-05-20	05	2024	20	1795080142774020720240520engagementlifetime
+153	17950801427740207	saved	lifetime	Salvos	Número total de contas únicas que salvaram o objeto de mídia	0	2024-05-20	05	2024	20	1795080142774020720240520savedlifetime
+154	17950801427740207	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto	0	2024-05-20	05	2024	20	1795080142774020720240520video_viewslifetime

@@ -1,0 +1,178 @@
+[
+    {
+        "id": "17841425444516188",
+        "username": "bodemeier.digital"
+    },
+    {
+        "id": "17841417530400616",
+        "stories": {
+            "data": [
+                {
+                    "id": "17964631463739660",
+                    "insights": {
+                        "data": [
+                            {
+                                "name": "exits",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 9
+                                    }
+                                ],
+                                "title": "Sa\u00eddas",
+                                "description": "N\u00famero de vezes que algu\u00e9m saiu do story",
+                                "id": "17964631463739660/insights/exits/lifetime"
+                            },
+                            {
+                                "name": "replies",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 0
+                                    }
+                                ],
+                                "title": "Respostas",
+                                "description": "N\u00famero total de respostas ao story",
+                                "id": "17964631463739660/insights/replies/lifetime"
+                            },
+                            {
+                                "name": "taps_forward",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 30
+                                    }
+                                ],
+                                "title": "Toques para avan\u00e7ar",
+                                "description": "N\u00famero total de toques para ver a foto ou v\u00eddeo seguinte deste story",
+                                "id": "17964631463739660/insights/taps_forward/lifetime"
+                            },
+                            {
+                                "name": "taps_back",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 2
+                                    }
+                                ],
+                                "title": "Toques para voltar",
+                                "description": "N\u00famero total de toques para ver a foto ou o v\u00eddeo anterior deste story",
+                                "id": "17964631463739660/insights/taps_back/lifetime"
+                            },
+                            {
+                                "name": "impressions",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 31
+                                    }
+                                ],
+                                "title": "Impress\u00f5es",
+                                "description": "O n\u00famero de vezes que seu story foi exibido na tela.",
+                                "id": "17964631463739660/insights/impressions/lifetime"
+                            },
+                            {
+                                "name": "reach",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 30
+                                    }
+                                ],
+                                "title": "Contas alcan\u00e7adas",
+                                "description": "O n\u00famero de contas \u00fanicas que viram este story pelo menos uma vez. O alcance \u00e9 diferente das impress\u00f5es, que podem incluir v\u00e1rias visualiza\u00e7\u00f5es do seu story pelas mesmas contas. Essa m\u00e9trica \u00e9 estimada.",
+                                "id": "17964631463739660/insights/reach/lifetime"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "17995934558433765",
+                    "insights": {
+                        "data": [
+                            {
+                                "name": "exits",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 7
+                                    }
+                                ],
+                                "title": "Sa\u00eddas",
+                                "description": "N\u00famero de vezes que algu\u00e9m saiu do story",
+                                "id": "17995934558433765/insights/exits/lifetime"
+                            },
+                            {
+                                "name": "replies",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 0
+                                    }
+                                ],
+                                "title": "Respostas",
+                                "description": "N\u00famero total de respostas ao story",
+                                "id": "17995934558433765/insights/replies/lifetime"
+                            },
+                            {
+                                "name": "taps_forward",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 32
+                                    }
+                                ],
+                                "title": "Toques para avan\u00e7ar",
+                                "description": "N\u00famero total de toques para ver a foto ou v\u00eddeo seguinte deste story",
+                                "id": "17995934558433765/insights/taps_forward/lifetime"
+                            },
+                            {
+                                "name": "taps_back",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 0
+                                    }
+                                ],
+                                "title": "Toques para voltar",
+                                "description": "N\u00famero total de toques para ver a foto ou o v\u00eddeo anterior deste story",
+                                "id": "17995934558433765/insights/taps_back/lifetime"
+                            },
+                            {
+                                "name": "impressions",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 42
+                                    }
+                                ],
+                                "title": "Impress\u00f5es",
+                                "description": "O n\u00famero de vezes que seu story foi exibido na tela.",
+                                "id": "17995934558433765/insights/impressions/lifetime"
+                            },
+                            {
+                                "name": "reach",
+                                "period": "lifetime",
+                                "values": [
+                                    {
+                                        "value": 41
+                                    }
+                                ],
+                                "title": "Contas alcan\u00e7adas",
+                                "description": "O n\u00famero de contas \u00fanicas que viram este story pelo menos uma vez. O alcance \u00e9 diferente das impress\u00f5es, que podem incluir v\u00e1rias visualiza\u00e7\u00f5es do seu story pelas mesmas contas. Essa m\u00e9trica \u00e9 estimada.",
+                                "id": "17995934558433765/insights/reach/lifetime"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "paging": {
+                "cursors": {
+                    "before": "QVFIUlRFLWN6a2xWRElzWV9CaVdXMUdYYW5Gd0R4ajF1cGgwNmNOa2E4WTA2X1h4a0d0UVJXYXZATY0ZAHejlJbGhzYkxhYkFDLWkyZAEFqQmVDaV9aSUxEeGZA3",
+                    "after": "QVFIUnlrWFRNTVdUNU1kaUZAWQW5qeUNMLWJTclB2WHZANSmxPd1FHMmVDZA3lpMkpyRVVHdUJOdUVCQ1pIbG5GSndzSFBLazdLQ2hjaTk2QWI0OV9oNEtsNml3"
+                }
+            }
+        },
+        "username": "gabgalani"
+    }
+]

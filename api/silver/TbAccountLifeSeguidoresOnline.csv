@@ -1,0 +1,3 @@
+	name	period	title	description	username	id_account	extract_date	period_extraction	year	day	id_tb_account	age_gender	value
+0	online_followers	lifetime	Seguidores online	Número total de seguidores deste perfil que estavam online durante o período especificado	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522online_followerslifetime	end_time	2024-05-22T07:00:00+0000
+1	online_followers	lifetime	Seguidores online	Número total de seguidores deste perfil que estavam online durante o período especificado	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522online_followerslifetime	end_time	2024-05-22T07:00:00+0000

@@ -1,0 +1,326 @@
+[
+    {
+        "name": "impressions",
+        "period": "day",
+        "values": [
+            {
+                "value": 2,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Impress\u00f5es",
+        "description": "N\u00famero total de vezes que os objetos de m\u00eddia da conta comercial foram visualizados",
+        "id": "17841425444516188/insights/impressions/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "reach",
+        "period": "day",
+        "values": [
+            {
+                "value": 1,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Alcance",
+        "description": "N\u00famero total de vezes que os objetos de m\u00eddia da conta comercial foram visualizados unicamente",
+        "id": "17841425444516188/insights/reach/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "follower_count",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "N\u00famero de seguidores",
+        "description": "N\u00famero total de contas \u00fanicas que seguem este perfil",
+        "id": "17841425444516188/insights/follower_count/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "email_contacts",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Contatos de email",
+        "description": "N\u00famero total de toques no link de email deste perfil",
+        "id": "17841425444516188/insights/email_contacts/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "phone_call_clicks",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Cliques em liga\u00e7\u00e3o telef\u00f4nica",
+        "description": "N\u00famero total de toques no link de liga\u00e7\u00e3o deste perfil",
+        "id": "17841425444516188/insights/phone_call_clicks/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "text_message_clicks",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Cliques em mensagens de texto",
+        "description": "N\u00famero total de toques no link de mensagens de texto neste perfil",
+        "id": "17841425444516188/insights/text_message_clicks/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "get_directions_clicks",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Cliques em Como chegar",
+        "description": "N\u00famero total de toques no link Como chegar deste perfil",
+        "id": "17841425444516188/insights/get_directions_clicks/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "website_clicks",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Cliques no site",
+        "description": "N\u00famero total de toques no link do site deste perfil",
+        "id": "17841425444516188/insights/website_clicks/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "profile_views",
+        "period": "day",
+        "values": [
+            {
+                "value": 3,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Visualiza\u00e7\u00f5es do perfil",
+        "description": "N\u00famero total de usu\u00e1rios que visualizaram o perfil da conta comercial no per\u00edodo especificado",
+        "id": "17841425444516188/insights/profile_views/day",
+        "username": "bodemeier.digital"
+    },
+    {
+        "name": "impressions",
+        "period": "day",
+        "values": [
+            {
+                "value": 15,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 4,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Impress\u00f5es",
+        "description": "N\u00famero total de vezes que os objetos de m\u00eddia da conta comercial foram visualizados",
+        "id": "17841417530400616/insights/impressions/day",
+        "username": "gabgalani"
+    },
+    {
+        "name": "reach",
+        "period": "day",
+        "values": [
+            {
+                "value": 11,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 1,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Alcance",
+        "description": "N\u00famero total de vezes que os objetos de m\u00eddia da conta comercial foram visualizados unicamente",
+        "id": "17841417530400616/insights/reach/day",
+        "username": "gabgalani"
+    },
+    {
+        "name": "follower_count",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "N\u00famero de seguidores",
+        "description": "N\u00famero total de contas \u00fanicas que seguem este perfil",
+        "id": "17841417530400616/insights/follower_count/day",
+        "username": "gabgalani"
+    },
+    {
+        "name": "email_contacts",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Contatos de email",
+        "description": "N\u00famero total de toques no link de email deste perfil",
+        "id": "17841417530400616/insights/email_contacts/day",
+        "username": "gabgalani"
+    },
+    {
+        "name": "phone_call_clicks",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Cliques em liga\u00e7\u00e3o telef\u00f4nica",
+        "description": "N\u00famero total de toques no link de liga\u00e7\u00e3o deste perfil",
+        "id": "17841417530400616/insights/phone_call_clicks/day",
+        "username": "gabgalani"
+    },
+    {
+        "name": "text_message_clicks",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Cliques em mensagens de texto",
+        "description": "N\u00famero total de toques no link de mensagens de texto neste perfil",
+        "id": "17841417530400616/insights/text_message_clicks/day",
+        "username": "gabgalani"
+    },
+    {
+        "name": "get_directions_clicks",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Cliques em Como chegar",
+        "description": "N\u00famero total de toques no link Como chegar deste perfil",
+        "id": "17841417530400616/insights/get_directions_clicks/day",
+        "username": "gabgalani"
+    },
+    {
+        "name": "website_clicks",
+        "period": "day",
+        "values": [
+            {
+                "value": 0,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 0,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Cliques no site",
+        "description": "N\u00famero total de toques no link do site deste perfil",
+        "id": "17841417530400616/insights/website_clicks/day",
+        "username": "gabgalani"
+    },
+    {
+        "name": "profile_views",
+        "period": "day",
+        "values": [
+            {
+                "value": 5,
+                "end_time": "2024-05-21T07:00:00+0000"
+            },
+            {
+                "value": 2,
+                "end_time": "2024-05-22T07:00:00+0000"
+            }
+        ],
+        "title": "Visualiza\u00e7\u00f5es do perfil",
+        "description": "N\u00famero total de usu\u00e1rios que visualizaram o perfil da conta comercial no per\u00edodo especificado",
+        "id": "17841417530400616/insights/profile_views/day",
+        "username": "gabgalani"
+    }
+]
