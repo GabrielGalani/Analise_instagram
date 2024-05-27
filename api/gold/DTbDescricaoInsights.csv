@@ -1,0 +1,22 @@
+	id_insight	name	frequencia	title	description
+0	1	audience_city	lifetime	Cidade do público	Cidades dos seguidores deste perfil
+1	2	audience_country	lifetime	País do público	Países dos seguidores deste perfil
+2	3	audience_gender_age	lifetime	Gênero e faixa etária	A distribuição por gênero e faixa etária dos seguidores deste perfil
+3	4	audience_locale	lifetime	Localização	Localidades por códigos de país dos seguidores deste perfil
+4	5	email_contacts	day	Contatos de email	Número total de toques no link de email deste perfil
+5	6	engagement	lifetime	Engajamento	Número total de curtidas, comentários e salvamentos no objeto de mídia
+6	7	exits	lifetime	Saídas	Número de vezes que alguém saiu do story
+7	8	follower_count	day	Número de seguidores	Número total de contas únicas que seguem este perfil
+8	9	get_directions_clicks	day	Cliques em Como chegar	Número total de toques no link Como chegar deste perfil
+9	10	impressions	lifetime	Impressões	O número de vezes que seu story foi exibido na tela.
+10	11	online_followers	lifetime	Seguidores online	Número total de seguidores deste perfil que estavam online durante o período especificado
+11	12	phone_call_clicks	day	Cliques em ligação telefônica	Número total de toques no link de ligação deste perfil
+12	13	profile_views	day	Visualizações do perfil	Número total de usuários que visualizaram o perfil da conta comercial no período especificado
+13	14	reach	day	Alcance	Número total de vezes que os objetos de mídia da conta comercial foram visualizados unicamente
+14	15	replies	lifetime	Respostas	Número total de respostas ao story
+15	16	saved	lifetime	Salvo	O número de vezes que seu reel foi salvo.
+16	17	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story
+17	18	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story
+18	19	text_message_clicks	day	Cliques em mensagens de texto	Número total de toques no link de mensagens de texto neste perfil
+19	20	video_views	lifetime	Visualizações de vídeo	Número total de vezes que o vídeo foi visto
+20	21	website_clicks	day	Cliques no site	Número total de toques no link do site deste perfil

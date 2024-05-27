@@ -1,0 +1,7 @@
+	id_midia	name	period	title	description	id	value	extract_date	period_extraction	year	day	id_tb_midias
+0	18029303027098233	exits	lifetime	Saídas	Número de vezes que alguém saiu do story	18029303027098233/insights/exits/lifetime	12	2024-05-23	05	2024	23	1802930302709823320240523exitslifetime
+1	18029303027098233	replies	lifetime	Respostas	Número total de respostas ao story	18029303027098233/insights/replies/lifetime	1	2024-05-23	05	2024	23	1802930302709823320240523replieslifetime
+2	18029303027098233	taps_forward	lifetime	Toques para avançar	Número total de toques para ver a foto ou vídeo seguinte deste story	18029303027098233/insights/taps_forward/lifetime	36	2024-05-23	05	2024	23	1802930302709823320240523taps_forwardlifetime
+3	18029303027098233	taps_back	lifetime	Toques para voltar	Número total de toques para ver a foto ou o vídeo anterior deste story	18029303027098233/insights/taps_back/lifetime	1	2024-05-23	05	2024	23	1802930302709823320240523taps_backlifetime
+4	18029303027098233	impressions	lifetime	Impressões	O número de vezes que seu story foi exibido na tela.	18029303027098233/insights/impressions/lifetime	124	2024-05-23	05	2024	23	1802930302709823320240523impressionslifetime
+5	18029303027098233	reach	lifetime	Contas alcançadas	O número de contas únicas que viram este story pelo menos uma vez. O alcance é diferente das impressões, que podem incluir várias visualizações do seu story pelas mesmas contas. Essa métrica é estimada.	18029303027098233/insights/reach/lifetime	106	2024-05-23	05	2024	23	1802930302709823320240523reachlifetime

@@ -1,5 +1,8 @@
+import sys
+import os
+sys.path.append(os.getcwd())
 from datetime import datetime
-from ClassTratamentoSilverApiIg import TratamentoSilverApiIg
+from scr.classes.ClassTratamentoSilverApiIg import TratamentoSilverApiIg
 
 
 #####
@@ -31,18 +34,18 @@ silver.output_file(file_output, dataset, input_file)
 ########
 file_json = r'C:\Users\gabri\OneDrive\Documentos\Projetos\Instagram_data\api\bronze\TbMedias.json'
 file_output_midias = r'C:\Users\gabri\OneDrive\Documentos\Projetos\Instagram_data\api\silver\TbMedias.csv'
-carrocel_output = r'C:\Users\gabri\OneDrive\Documentos\Projetos\Instagram_data\api\silver\TbCarrocel.csv'
+TbCarrossel_output = r'C:\Users\gabri\OneDrive\Documentos\Projetos\Instagram_data\api\silver\TbCarrossel.csv'
 input_file_midias = 'TbMedias.json'
-input_file_carrocel = 'TbCarrocel.json'
+input_file_TbCarrossel = 'TbCarrossel.json'
 
 silver = TratamentoSilverApiIg(file_json)
-dataset_midia, dataset_carrocel = silver.tb_midias_cabecalho(extract_date, period, year, day)
+dataset_midia, dataset_TbCarrossel = silver.tb_midias_cabecalho(extract_date, period, year, day, file_json)
 
 #Salvando dataset midia
 silver.output_file(file_output_midias, dataset_midia, input_file)
 
-#Salvando dataset carrocel
-silver.output_file(carrocel_output, dataset_carrocel, input_file_carrocel)
+#Salvando dataset TbCarrossel
+silver.output_file(TbCarrossel_output, dataset_TbCarrossel, input_file_TbCarrossel)
 
 
 
@@ -55,7 +58,7 @@ try:
     input_file_stories = 'TbStories.json'
 
     silver = TratamentoSilverApiIg(file_json)
-    dataset_stories = silver.tb_stories(extract_date, period, year, day)
+    dataset_stories = silver.tb_stories(extract_date, period, year, day, file_json)
 
     #Salvando dataset midia
     silver.output_file(stories_output, dataset_stories, input_file_stories)
@@ -128,7 +131,7 @@ try:
     input_file_stories_insight = 'TbStoriesInsightsLifetime.json'
 
     silver = TratamentoSilverApiIg(file_json)
-    dataset_stories_insight = silver.tb_stories_insights(extract_date, period, year, day)
+    dataset_stories_insight = silver.tb_stories_insights(extract_date, period, year, day, file_json)
 
     #Salvando dataset midia
     silver.output_file(stories_insights_output, dataset_stories_insight, input_file_stories_insight)

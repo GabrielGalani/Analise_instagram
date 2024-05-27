@@ -1,9 +1,9 @@
-from funApiExtraction import get_id, get_info
-from funGetEnv import get_creds
-from pathlib import Path
-import os
 import sys
-
+import os
+sys.path.append(os.getcwd())
+from scr.funcoes.funApiExtraction import get_id, get_info
+from scr.funcoes.funGetEnv import get_creds
+from pathlib import Path
 
 
 access_token = get_creds('ACCESS_TOKEN')

@@ -32,13 +32,14 @@ class TratamentoSilverApiIg():
         }
         data_cabecalho.rename(columns=rename_column_cabecalho, inplace=True)
 
-        select_column_cabecalho = ['id_account', 'account_username', 'account_biography', 'profile_picture_url', 'account_name']
+        select_column_cabecalho = ['id_account', 'account_username', 'account_biography', 'profile_picture_url', 'account_name', 'followers_count', 'follows_count', 'media_count']
         data_cabecalho = data_cabecalho[select_column_cabecalho]
 
         return data_cabecalho
     
-    def tb_midias_cabecalho(self, extract_date, period, year, day): 
-        data_midias_sem_insights = self.read_json(self.file_json)
+    def tb_midias_cabecalho(self, extract_date, period, year, day, json): 
+        # data_midias_sem_insights = self.read_json(self.file_json)
+        data_midias_sem_insights = pd.read_json(json, orient='records', dtype={'id': str})
         data_midias_sem_insights
         dataframes = []
         owner_df = pd.json_normalize(data_midias_sem_insights['owner']).rename(columns={'id': 'id_account'})
@@ -56,6 +57,9 @@ class TratamentoSilverApiIg():
         df_tb_midia['day'] = day
         df_tb_midia['id_tb_midia'] = df_tb_midia['id_midia'].astype(str) + df_tb_midia['year'] + df_tb_midia['period'] + df_tb_midia['day']
 
+        # filtro = df_tb_midia[df_tb_midia['id_midia'] == '18002752616172667']
+        df_tb_midia.head()
+
         #######
         # Tb Carrocel
         #######
@@ -72,43 +76,24 @@ class TratamentoSilverApiIg():
         return df_tb_midia, dataframe_carrocel
     
 
-    def tb_stories(self, extract_date, period, year, day):
-        data_stories_sem_insights = self.read_json(self.file_json)
+    def tb_stories(self, extract_date, period, year, day, json):
+        # data_stories_sem_insights = self.read_json(self.file_json)
+        data_stories_sem_insights = pd.read_json(json, orient='records', dtype={'id': str})
+        data_stories_sem_insights.dropna(subset=['owner'], inplace=True)
+        owner_df = pd.json_normalize(data_stories_sem_insights['owner']).rename(columns={'id': 'id_account'})
+        df_final_midia = pd.concat([data_stories_sem_insights.reset_index(drop=True), owner_df.reset_index(drop=True)], axis=1)
+        df_final_midia.drop(columns=['owner'], inplace=True)
+        df_final_midia.rename(columns={'id': 'id_midia'}, inplace=True)
 
-        data_stories_json = pd.json_normalize(data_stories_sem_insights['stories'])
-        # data_stories_json = pd.json_normalize(data_stories_json['data'])
-        data_stories_json = pd.concat([data_stories_sem_insights, data_stories_json], axis=1)
-        data_stories_json = data_stories_json[['id', 'data']]
-        data_stories_normalizado = data_stories_json.dropna()
-
-        normalized_dfs = []
-
-        # Itera sobre cada linha do DataFrame
-        for i, row in data_stories_normalizado.iterrows():
-            # Normaliza a coluna 'children.data' e adiciona uma coluna com o índice original
-            normalized_df = pd.json_normalize(row['data'])
-            normalized_df['index'] = i
-            normalized_dfs.append(normalized_df)
-
-        # Concatena todos os DataFrames normalizados
-        normalized_df = pd.concat(normalized_dfs)
-
-        # Une o DataFrame normalizado ao DataFrame original
-        # Isso resulta em duplicação de linhas para cada item da lista dentro do 'children.data'
-        result_df = data_stories_normalizado.drop(columns=['data']).merge(normalized_df, left_index=True, right_on='index')
-
-        # Remova a coluna 'index' se não for mais necessária
-        data_stories_normalizado = result_df.drop(columns=['index'])
-        data_stories_normalizado.rename(columns={'id_x': 'id_account', 'id_y': 'id_story'}, inplace=True)
+        df_final_midia['extract_date'] = extract_date
+        df_final_midia['period'] = period
+        df_final_midia['year'] = year
+        df_final_midia['day'] = day
+        df_final_midia['id_tb_midia'] = df_final_midia['id_midia'].astype(str) + df_final_midia['year'] + df_final_midia['period'] + df_final_midia['day']
 
 
-        data_stories_normalizado['extract_date'] = extract_date
-        data_stories_normalizado['period'] = period
-        data_stories_normalizado['year'] = year
-        data_stories_normalizado['day'] = day
-        data_stories_normalizado['id_tb_midia'] = data_stories_normalizado['id_story'] + data_stories_normalizado['year'] + data_stories_normalizado['period'] + data_stories_normalizado['day']
-
-        return data_stories_normalizado
+        df_final_midia.head()
+        return df_final_midia
     
 
     def tb_account_day(self, extract_date, period, year, day): 
@@ -224,38 +209,38 @@ class TratamentoSilverApiIg():
         return df_faixa_etaria_e_genero, df_localizacao_pais, df_pais_do_publico, df_cidade_seguidores, df_seguidores_online
 
 
-    def tb_stories_insights(self, extract_date, period, year, day): 
-        data_lifetime_story = self.read_json(self.file_json)
-        data_lifetime_story.dropna(subset=['stories'], inplace=True)
-        data_lifetime_story.rename(columns={'id': 'id_account'}, inplace=True)
+    def tb_stories_insights(self, extract_date, period, year, day, json): 
+        data_lifetime_story = pd.read_json(json, orient='records', dtype={'id': str})
+        data_lifetime_story.dropna(subset=['insights'], inplace=True)
+        insights = pd.json_normalize(data_lifetime_story['insights'])
+        data = pd.concat([data_lifetime_story.reset_index(drop=True), insights], axis=1).drop(columns='insights')
+        data = pd.json_normalize(insights['data'])
+        data.head()
 
-        stories_json = pd.concat([data_lifetime_story.reset_index(drop=True), pd.json_normalize(pd.json_normalize(data_lifetime_story['stories'])['data']).reset_index(drop=True)], axis=1)
-        stories_json.drop(columns='stories', inplace=True)
+        dfs = []
 
-        dfs_data = []
-        for i in stories_json.columns:
-            data_json = pd.json_normalize(stories_json[i])
-            dfs_data.append(data_json)
-
-        df_final_data = pd.concat(dfs_data)
-        df_final_data.dropna(inplace=True)
-
-        df_exploded = df_final_data.explode('insights.data').reset_index(drop=True)
-        df_normalized = pd.json_normalize(df_exploded['insights.data'])
-        df_final = pd.concat([df_exploded[['id']].reset_index(drop=True), df_normalized.reset_index(drop=True)], axis=1)
-        df_values_normalized = pd.json_normalize(df_final['values'].explode())
-        df_final = pd.concat([df_final.drop(columns=['values']), df_values_normalized], axis=1)
-
+        for index, row in data.iterrows():
+            try:
+                column_0 = pd.json_normalize(row)
+                values = pd.json_normalize(pd.json_normalize(column_0['values'])[0])
+                column_0 = pd.concat([column_0, values], axis=1).drop(columns='values')
+                # column_0.rename(columns={'id': 'id_midia_tratado'}, inplace = True)
+                dfs.append(column_0)
+            except:
+                pass
+                # print(f'Passei aqui na linha {index}')
+                
+        df_final = pd.concat(dfs).drop_duplicates().dropna()
+        df_final['id_midia'] = df_final['id'].str.split('/').str[0]
+        df_final = df_final[['id_midia', 'name', 'period', 'title','description', 'id', 'value']]
 
         df_final['extract_date'] = extract_date
         df_final['period_extraction'] = period
         df_final['year'] = year
         df_final['day'] = day
 
-        df_final = df_final.loc[:, ~df_final.columns.duplicated()]
-
-        df_final['id_tb_stories'] = (
-            df_final['id'].astype(str) + 
+        df_final['id_tb_midias'] = (
+            df_final['id_midia'].astype(str) + 
             df_final['year'].astype(str) + 
             df_final['period_extraction'].astype(str) + 
             df_final['day'].astype(str) + 
@@ -270,31 +255,34 @@ class TratamentoSilverApiIg():
         insights = pd.json_normalize(data_lifetime_midia['insights'])
         insights = pd.concat([data_lifetime_midia, insights], axis=1).drop(columns='insights')
         data = pd.json_normalize(insights['data'])
-
         dfs = []
+
+
 
         for index, row in data.iterrows():
             try:
                 column_0 = pd.json_normalize(row)
                 values = pd.json_normalize(pd.json_normalize(column_0['values'])[0])
                 column_0 = pd.concat([column_0, values], axis=1).drop(columns='values')
-                datas = pd.concat([insights, column_0], axis=1).drop(columns='data')
-                dfs.append(datas)
+                # column_0.rename(columns={'id': 'id_midia_tratado'}, inplace = True)
+                dfs.append(column_0)
             except:
                 pass
                 # print(f'Passei aqui na linha {index}')
                 
         df_final = pd.concat(dfs).drop_duplicates().dropna()
+        df_final.head(50)
+
+        df_final['id_midia'] = df_final['id'].str.split('/').str[0]
+        df_final = df_final[['id_midia', 'name', 'period', 'title','description', 'id', 'value']]
 
         df_final['extract_date'] = extract_date
         df_final['period_extraction'] = period
         df_final['year'] = year
         df_final['day'] = day
 
-        df_final = df_final.loc[:, ~df_final.columns.duplicated()]
-
         df_final['id_tb_midias'] = (
-            df_final['id'].astype(str) + 
+            df_final['id_midia'].astype(str) + 
             df_final['year'].astype(str) + 
             df_final['period_extraction'].astype(str) + 
             df_final['day'].astype(str) + 

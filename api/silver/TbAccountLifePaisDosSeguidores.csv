@@ -1,61 +1,61 @@
 	name	period	title	description	username	id_account	extract_date	period_extraction	year	day	id_tb_account	age_gender	value
-0	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.DE	1.0
-1	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.DE	
-2	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.BD	1.0
-3	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.BD	
-4	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.RU	10.0
-5	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.RU	
-6	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.PT	9.0
-7	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.PT	
-8	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.RW	1.0
-9	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.RW	
-10	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.FR	2.0
-11	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.FR	
-12	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.NZ	2.0
-13	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.NZ	
-14	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.BR	645.0
-15	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.BR	209.0
-16	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.SG	1.0
-17	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.SG	
-18	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.BY	5.0
-19	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.BY	
-20	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.GB	5.0
-21	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.GB	
-22	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.US	665.0
-23	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.US	4.0
-24	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.MM	6.0
-25	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.MM	
-26	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.AE	9.0
-27	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.AE	
-28	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.CH	2.0
-29	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.CH	
-30	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.IN	2.0
-31	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.IN	
-32	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.ZA	15.0
-33	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.ZA	
-34	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.IR	21.0
-35	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.IR	
-36	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.MX	2.0
-37	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.MX	
-38	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.MY	1.0
-39	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.MY	1.0
-40	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.AO	1.0
-41	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.AO	
-42	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.ES	7.0
-43	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.ES	
-44	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.TH	1.0
-45	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.TH	
-46	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.AU	7.0
-47	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.AU	
-48	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.CZ	21.0
-49	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.CZ	
-50	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.NG	5.0
-51	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.NG	
-52	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.NL	3.0
-53	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.NL	
-54	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.TR	1028.0
-55	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.TR	
-56	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.HK	
-57	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.HK	1.0
-58	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-22	05	2024	22	1784142544451618820240522audience_countrylifetime	value.EC	
-59	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-22	05	2024	22	1784141753040061620240522audience_countrylifetime	value.EC	1.0
+0	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.DE	1.0
+1	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.DE	
+2	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.BD	1.0
+3	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.BD	
+4	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.RU	10.0
+5	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.RU	
+6	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.PT	9.0
+7	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.PT	
+8	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.RW	1.0
+9	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.RW	
+10	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.FR	2.0
+11	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.FR	
+12	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.NZ	2.0
+13	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.NZ	
+14	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.BR	645.0
+15	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.BR	210.0
+16	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.SG	1.0
+17	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.SG	
+18	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.BY	5.0
+19	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.BY	
+20	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.GB	5.0
+21	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.GB	
+22	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.US	665.0
+23	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.US	4.0
+24	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.MM	6.0
+25	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.MM	
+26	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.AE	9.0
+27	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.AE	
+28	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.CH	2.0
+29	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.CH	
+30	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.IN	2.0
+31	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.IN	
+32	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.ZA	15.0
+33	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.ZA	
+34	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.IR	21.0
+35	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.IR	
+36	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.MX	2.0
+37	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.MX	
+38	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.MY	1.0
+39	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.MY	1.0
+40	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.AO	1.0
+41	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.AO	
+42	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.ES	7.0
+43	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.ES	
+44	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.TH	1.0
+45	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.TH	
+46	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.AU	7.0
+47	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.AU	
+48	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.CZ	21.0
+49	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.CZ	
+50	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.NG	5.0
+51	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.NG	
+52	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.NL	3.0
+53	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.NL	
+54	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.TR	1028.0
+55	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.TR	
+56	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.HK	
+57	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.HK	1.0
+58	audience_country	lifetime	País do público	Países dos seguidores deste perfil	bodemeier.digital	17841425444516188	2024-05-25	05	2024	25	1784142544451618820240525audience_countrylifetime	value.EC	
+59	audience_country	lifetime	País do público	Países dos seguidores deste perfil	gabgalani	17841417530400616	2024-05-25	05	2024	25	1784141753040061620240525audience_countrylifetime	value.EC	1.0
