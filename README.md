@@ -22,7 +22,12 @@ O pipeline de dados do projeto é composto pelas seguintes etapas:
 
 A conclusão do projeto se deu com a criação do BI abaixo:
 
-(Foto do dashboard no Power BI)
+### Dashboard de Conta Própria
+![Dashboard de Conta Própria](imgs/Dash_my_account.png)
+
+### Dashboard de Contas Pesquisadas
+![Dashboard de Contas Pesquisadas](imgs/Dash_search_accounts.png)
+
 
 ## Tecnologias Utilizadas
 
