@@ -12,12 +12,12 @@ create table TbAccount (
 	account_name varchar(100),
 	followers_count int, 
 	follows_count int, 
-	media_count int
+	media_count int,
+	definicao varchar(25)
 )
 /*
 A TABELA ABAIXO SERÁ CARREGADAS PELOS ARQUIVOS TBACCOUNTDAYINSIGHTS e TBACCOUNTLIFE
 */
---   Se chamava DTbAccountInsights mas foi substituida por podia ser aplicada para alem da conta
 USE DW
 if not exists (select * from sysobjects where name='DTbDescricaoInsights' and xtype='U')
 create table DTbDescricaoInsights(
@@ -28,6 +28,25 @@ create table DTbDescricaoInsights(
 	description varchar (max)
 )
 
+
+USE DW
+if not exists (select * from sysobjects where name='FTbAccount' and xtype='U')
+create table FTbAccount (
+	id varchar(150) not null primary key,
+	id_account	varchar (100),
+	account_username varchar (100), 
+	account_biography varchar(max), 
+	profile_picture_url varchar(max),
+	account_name varchar(100),
+	followers_count int, 
+	follows_count int, 
+	media_count int,
+	extract_date date,
+	period varchar(5),
+	year varchar(5),
+	day varchar(5)
+	foreign key (id_account) references TbAccount(id_account)
+)
 
 /*
 TABELA CARREGADA PELOS ARQUIVOS TBACCOUNTLDAY
@@ -122,13 +141,6 @@ create table FTbMidias (
 /*
 TABELA SERÁ CARREGADA PELOS ARQUIVOS MIDIAS INSIGHTS E STORIES INSIGHTS
 */
--- create table DTbDescricaoInsights (
--- 	id varchar not null primary key, -- ID DA DESCRIÇÃO
--- 	name varchar,
--- 	frequencia varchar,
--- 	title varchar,
--- 	description varchar
--- )
 
 USE DW
 if not exists (select * from sysobjects where name='FTbMidiasInsights' and xtype='U')

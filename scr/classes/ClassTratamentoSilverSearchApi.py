@@ -1,17 +1,21 @@
+# Importando bibliotecas
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
 
+
+# Criando a classe de tratamento de instragrans
 class TratamentoSilverSearchApiIg(): 
     def __init__(self, file_json): 
         self.file_json = file_json
     
+    # Funçãop de leitura de arquivo
     def read_json(self, json):
         dataset = pd.read_json(json)
 
         return dataset
     
-
+    # Função de salvamento de arquivo
     def output_file(self, output_path, dataset, file):
         try:
             dataset.to_csv(output_path, sep='\t')
@@ -20,8 +24,9 @@ class TratamentoSilverSearchApiIg():
             print(f'Erro ao salvar arquivo {file}')
     
 
+    # Função de tratamento da tabela cabeçalho
     def tb_cabecalho(self): 
-        data_cabecalho = self.read_json(self.file_json)
+        data_cabecalho = pd.read_json(self.file_json, orient='records', dtype={'id': str})
         rename_column_cabecalho = {
             'id': 'id_account',
             'username': 'account_username',
@@ -33,6 +38,7 @@ class TratamentoSilverSearchApiIg():
 
         select_column_cabecalho = ['id_account', 'account_username', 'account_biography', 'profile_picture_url', 'account_name', 'followers_count', 'follows_count', 'media_count']
         data_cabecalho = data_cabecalho[select_column_cabecalho]
+
 
         return data_cabecalho
     
@@ -56,7 +62,6 @@ class TratamentoSilverSearchApiIg():
         df_tb_midia['day'] = day
         df_tb_midia['id_tb_midia'] = df_tb_midia['id_midia'].astype(str) + df_tb_midia['year'] + df_tb_midia['period'] + df_tb_midia['day']
 
-        # filtro = df_tb_midia[df_tb_midia['id_midia'] == '18002752616172667']
         df_tb_midia.head()
 
         #######

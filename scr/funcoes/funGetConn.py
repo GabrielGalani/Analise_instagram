@@ -1,8 +1,9 @@
+# importando bibliotecas utilizadas
 from sqlalchemy import create_engine, text
 import sys
 
 
-
+# Função para se conectar ao banco de dados
 def connect_to_database(database):
     try:
         connection_string = f'mssql+pyodbc://localhost/{database}?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server'
@@ -11,8 +12,9 @@ def connect_to_database(database):
     except Exception as e:
         print("Erro ao conectar ao banco de dados:", e)
         return None
-    
 
+
+# Função para carregar as tabelas com os dados ainda não existentes
 def send_to_db(engine, table, pk_column, dataset): 
     if not engine: 
         print('conexão fail')
@@ -32,6 +34,7 @@ def send_to_db(engine, table, pk_column, dataset):
         connection.commit()
         connection.close()
 
+# Função para carregar as tabelas com os dados ainda não existentes
 def send_to_db_insights(engine, table_name, key_column, dataset):
         if not engine: 
             print('conexão fail')

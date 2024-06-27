@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS FTbAccount;
 DROP TABLE IF EXISTS FTbMidiasInsights;
 DROP TABLE IF EXISTS FTbMidias;
 DROP TABLE IF EXISTS FTbAccountLifetimeInsights;

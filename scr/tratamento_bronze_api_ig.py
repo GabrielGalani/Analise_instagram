@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 access_token = get_creds('ACCESS_TOKEN')
-id_ig = get_id(access_token, ['gabgalani', 'bodemeier.digital']) 
+id_ig = get_id(access_token, ['gabgalani',]) 
 BASEFOLDER = r'C:\Users\gabri\OneDrive\Documentos\Projetos\Instagram_data\api\{stage}'
 OUTPUT_PATH = BASEFOLDER.format(stage='bronze')
 Path(OUTPUT_PATH).mkdir(parents=True, exist_ok=True)

@@ -25,7 +25,6 @@ file_json = r'C:\Users\gabri\OneDrive\Documentos\Projetos\Instagram_data\concorr
 file_output = r'C:\Users\gabri\OneDrive\Documentos\Projetos\Instagram_data\concorrentes\silver\TbCabecalho.csv'
 input_file = 'tbAccount_ig.json'
 
-Path(os.path.dirname(file_output)).mkdir(parents=True, exist_ok=False)
 
 silver = TratamentoSilverSearchApiIg(file_json)
 dataset = silver.tb_cabecalho()

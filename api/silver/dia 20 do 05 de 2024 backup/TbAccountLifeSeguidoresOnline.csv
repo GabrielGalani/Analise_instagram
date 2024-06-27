@@ -1,3 +1,0 @@
-	id_account	name.4	period	title.4	description.4	Seguidores_online	valor	extract_date	period_extraction	year	day	id_tb_midia
-0	17841425444516188	online_followers	lifetime	Seguidores online	Número total de seguidores deste perfil que estavam online durante o período especificado	end_time	2024-05-20T07:00:00+0000	2024-05-20	05	2024	20	1784142544451618820240520online_followerslifetime
-1	17841417530400616	online_followers	lifetime	Seguidores online	Número total de seguidores deste perfil que estavam online durante o período especificado	end_time	2024-05-20T07:00:00+0000	2024-05-20	05	2024	20	1784141753040061620240520online_followerslifetime

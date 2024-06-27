@@ -1,18 +1,21 @@
+# Importando bibliotecas
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
 
 
+# Classe de tratamento de dados
 class TratamentoSilverApiIg(): 
     def __init__(self, file_json): 
         self.file_json = file_json
     
+    # Função de leitura de json
     def read_json(self, json):
         dataset = pd.read_json(json)
 
         return dataset
     
-
+    # Função de salvamento de arquivo
     def output_file(self, output_path, dataset, file):
         try:
             dataset.to_csv(output_path, sep='\t')
@@ -21,8 +24,9 @@ class TratamentoSilverApiIg():
             print(f'Erro ao salvar arquivo {file}')
     
 
+    # Tratamentos da tabela de cabeçalho
     def tb_cabecalho(self): 
-        data_cabecalho = self.read_json(self.file_json)
+        data_cabecalho = pd.read_json(self.file_json, orient='records', dtype={'id': str})
         rename_column_cabecalho = {
             'id': 'id_account',
             'username': 'account_username',
@@ -37,6 +41,8 @@ class TratamentoSilverApiIg():
 
         return data_cabecalho
     
+    
+    # Função de tratamento de Mídias cabeçalho
     def tb_midias_cabecalho(self, extract_date, period, year, day, json): 
         # data_midias_sem_insights = self.read_json(self.file_json)
         data_midias_sem_insights = pd.read_json(json, orient='records', dtype={'id': str})
@@ -57,8 +63,6 @@ class TratamentoSilverApiIg():
         df_tb_midia['day'] = day
         df_tb_midia['id_tb_midia'] = df_tb_midia['id_midia'].astype(str) + df_tb_midia['year'] + df_tb_midia['period'] + df_tb_midia['day']
 
-        # filtro = df_tb_midia[df_tb_midia['id_midia'] == '18002752616172667']
-        df_tb_midia.head()
 
         #######
         # Tb Carrocel
@@ -76,6 +80,7 @@ class TratamentoSilverApiIg():
         return df_tb_midia, dataframe_carrocel
     
 
+    # Tratamento da tabela de stories
     def tb_stories(self, extract_date, period, year, day, json):
         # data_stories_sem_insights = self.read_json(self.file_json)
         data_stories_sem_insights = pd.read_json(json, orient='records', dtype={'id': str})
@@ -92,10 +97,10 @@ class TratamentoSilverApiIg():
         df_final_midia['id_tb_midia'] = df_final_midia['id_midia'].astype(str) + df_final_midia['year'] + df_final_midia['period'] + df_final_midia['day']
 
 
-        df_final_midia.head()
         return df_final_midia
     
-
+    
+    # Tratamento da tabela de account por dia
     def tb_account_day(self, extract_date, period, year, day): 
         data_day_account = self.read_json(self.file_json)
 
@@ -127,6 +132,7 @@ class TratamentoSilverApiIg():
         return resultado
 
 
+    # Tratamento da tabela de account por lifetime
     def tb_account_lifetime(self, extract_date, period, year, day): 
         data_lifetime_account = self.read_json(self.file_json)
 
@@ -169,6 +175,7 @@ class TratamentoSilverApiIg():
         merged_df.drop(columns = ['values', 'id'],inplace=True)
         df_localizacao_pais = merged_df.melt(id_vars=['name', 'period', 'title', 'description', 'username', 'id_account', 'extract_date', 'period_extraction', 'year', 'day', 'id_tb_account'], var_name='age_gender', value_name='value')
 
+
         #####
         # Tb Pais do Publico
         #####
@@ -179,7 +186,6 @@ class TratamentoSilverApiIg():
         merged_df = pd.concat([audience_country.reset_index(drop=True), values_0.reset_index(drop=True)], axis=1)
         merged_df.drop(columns = ['values', 'id'],inplace=True)
         df_pais_do_publico = merged_df.melt(id_vars=['name', 'period', 'title', 'description', 'username', 'id_account', 'extract_date', 'period_extraction', 'year', 'day', 'id_tb_account'], var_name='age_gender', value_name='value')
-
 
 
         #####
@@ -209,6 +215,7 @@ class TratamentoSilverApiIg():
         return df_faixa_etaria_e_genero, df_localizacao_pais, df_pais_do_publico, df_cidade_seguidores, df_seguidores_online
 
 
+    # Tratamento da tabela de stroies insights
     def tb_stories_insights(self, extract_date, period, year, day, json): 
         data_lifetime_story = pd.read_json(json, orient='records', dtype={'id': str})
         data_lifetime_story.dropna(subset=['insights'], inplace=True)
@@ -224,12 +231,10 @@ class TratamentoSilverApiIg():
                 column_0 = pd.json_normalize(row)
                 values = pd.json_normalize(pd.json_normalize(column_0['values'])[0])
                 column_0 = pd.concat([column_0, values], axis=1).drop(columns='values')
-                # column_0.rename(columns={'id': 'id_midia_tratado'}, inplace = True)
                 dfs.append(column_0)
             except:
-                pass
-                # print(f'Passei aqui na linha {index}')
-                
+                pass      
+                      
         df_final = pd.concat(dfs).drop_duplicates().dropna()
         df_final['id_midia'] = df_final['id'].str.split('/').str[0]
         df_final = df_final[['id_midia', 'name', 'period', 'title','description', 'id', 'value']]
@@ -250,6 +255,8 @@ class TratamentoSilverApiIg():
 
         return df_final
 
+
+    # Tabela de mídia insights
     def tb_midia_insights(self, extract_date, period, year, day):
         data_lifetime_midia = self.read_json(self.file_json)
         insights = pd.json_normalize(data_lifetime_midia['insights'])
@@ -258,17 +265,14 @@ class TratamentoSilverApiIg():
         dfs = []
 
 
-
         for index, row in data.iterrows():
             try:
                 column_0 = pd.json_normalize(row)
                 values = pd.json_normalize(pd.json_normalize(column_0['values'])[0])
                 column_0 = pd.concat([column_0, values], axis=1).drop(columns='values')
-                # column_0.rename(columns={'id': 'id_midia_tratado'}, inplace = True)
                 dfs.append(column_0)
             except:
                 pass
-                # print(f'Passei aqui na linha {index}')
                 
         df_final = pd.concat(dfs).drop_duplicates().dropna()
         df_final.head(50)
@@ -293,6 +297,7 @@ class TratamentoSilverApiIg():
         return df_final
 if __name__ == "__main__": 
 
+    ## Testando a classe
     #####
     # Variaveis Globais
     #####

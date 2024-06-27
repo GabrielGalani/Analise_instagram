@@ -3,6 +3,7 @@ import sys
 sys.path.append(os.getcwd())
 import pandas as pd
 from pathlib import Path
+from datetime import datetime
 from scr.funcoes.funGetConn import connect_to_database, send_to_db, send_to_db_insights
 from scr.funcoes.funGetEnv import get_creds
 
@@ -45,6 +46,7 @@ class TratamentoGoldIg():
             'id_account': object
         }
         dataset = dataset.astype(d_type)
+        dataset['definicao'] = 'CLIENTE'
 
         creds = get_creds('DW')
         engine = connect_to_database(creds)
@@ -57,6 +59,63 @@ class TratamentoGoldIg():
         output = os.path.join(self.output_path, os.path.basename(file_path))
         dataset.to_csv(output, sep='\t')
         print('----- TbAccount carregada -----')
+
+    
+
+    def tratamento_ftb_account(self): 
+        
+        file_path = self.mont_path('TbCabecalho.csv')
+        dataset = pd.read_csv(file_path, sep='\t')
+        today = datetime.now()
+        extract_date = today.strftime('%Y-%m-%d')
+        period = today.strftime('%m')
+        year = today.strftime('%Y')
+        day = today.strftime('%d')
+
+
+        select_columns = [
+            'id_account',
+            'account_username',
+            'account_biography',
+            'profile_picture_url',
+            'account_name',
+            'followers_count', 
+            'follows_count', 
+            'media_count'
+        ]
+        dataset= dataset[select_columns]
+
+
+
+        dataset['extract_date'] = extract_date
+        dataset['period'] = period
+        dataset['year'] = year
+        dataset['day'] = day
+        dataset['id'] = dataset['id_account'].astype(str) + dataset['year'] + dataset['period'] + dataset['day']
+
+        dataset['extract_date'] = pd.to_datetime(dataset['extract_date'])
+        d_type = {
+            'id': 'object',
+            'id_account': 'object',
+            'year': 'object',
+            'period': 'object',
+            'day': 'object',
+
+        }
+        dataset = dataset.astype(d_type)
+
+
+        creds = get_creds('DW')
+        engine = connect_to_database(creds)
+        table = 'FTbAccount'
+        pk_column = 'id'
+        send_to_db(engine, table, pk_column, dataset)
+
+        self.create_parent_folder()
+
+        output = os.path.join(self.output_path, os.path.basename(file_path))
+        dataset.to_csv(output, sep='\t')
+        print('----- FbAccount carregada -----')
 
 
 
@@ -215,6 +274,9 @@ class TratamentoGoldIg():
 
         if 'thumbnail_url' not in dataset.columns:
             dataset['thumbnail_url'] = pd.Series(dtype=object)
+
+        if "caption" not in dataset.columns: 
+            dataset['caption'] = pd.Series(dtype=object)
 
         DTbMidias = dataset[select_columns]
 
@@ -584,12 +646,13 @@ if __name__ == "__main__":
     tratamento_gold = TratamentoGoldIg(folder, output)
 
     #Todos os metodos da classe
-    tratamento_gold.tratamento_tb_account()
-    tratamento_gold.tratamento_dim_descricao_insights()
-    tratamento_gold.tratamento_dim_midias()
-    tratamento_gold.tratamento_stories_dim_midias()
-    tratamento_gold.tratamento_fato_midias()
-    tratamento_gold.tratamento_dim_carrossel()
-    tratamento_gold.tratamento_fato_account_day_insights()
-    tratamento_gold.tratamento_fato_midias_insights()
-    tratamento_gold.tratamento_fato_account_lifetime_insights()
+    # tratamento_gold.tratamento_tb_account()
+    # tratamento_gold.tratamento_ftb_account()
+    # tratamento_gold.tratamento_dim_descricao_insights()
+    # tratamento_gold.tratamento_dim_midias()
+    # tratamento_gold.tratamento_stories_dim_midias()
+    # tratamento_gold.tratamento_fato_midias()
+    # tratamento_gold.tratamento_dim_carrossel()
+    # tratamento_gold.tratamento_fato_account_day_insights()
+    # tratamento_gold.tratamento_fato_midias_insights()
+    # tratamento_gold.tratamento_fato_account_lifetime_insights()

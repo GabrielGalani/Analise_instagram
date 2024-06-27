@@ -13,6 +13,7 @@ tratamento_gold = TratamentoGoldIg(folder, output)
 
 #Todos os metodos da classe
 tratamento_gold.tratamento_tb_account()
+tratamento_gold.tratamento_ftb_account()
 tratamento_gold.tratamento_dim_descricao_insights()
 tratamento_gold.tratamento_dim_midias()
 tratamento_gold.tratamento_stories_dim_midias()
